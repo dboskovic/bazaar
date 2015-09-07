@@ -27,6 +27,6 @@ class Bazaar
     }
     public static function get_item($filename) {
       $words = file(__DIR__."/../../words/$filename.txt"); 
-      return trim($words[rand(0, count($words) - 1)];
+      return trim($words[rand(0, count($words) - 1)]);
     }
 }
