@@ -23,10 +23,10 @@ class Bazaar
       return ucwords(self::get_item("superadj").' '.self::get_item("superitems"));
     }
     public static function heroku() {
-      return ucwords(self::get_item("superadj").'-'.self::get_item("superitems").'-'.rand(0,9999));
+      return self::get_item("superadj").'-'.self::get_item("superitems").'-'.rand(0,9999);
     }
     public static function get_item($filename) {
       $words = file(__DIR__."/../../words/$filename.txt"); 
-      return $words[rand(0, count($words) - 1)];
+      return trim($words[rand(0, count($words) - 1)];
     }
 }
