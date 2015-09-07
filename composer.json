@@ -1,6 +1,7 @@
 {
-    "name": "dboskovic/bazaar-php",
+    "name": "dboskovic/bazaar",
     "description": "Random item and Heroku-ish name generator package ported from raycchan/bazaar gem",
+    "version": "1.0",
     "license": "MIT",
     "authors": [
         {
