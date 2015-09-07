@@ -12,6 +12,8 @@
     "minimum-stability": "dev",
     "require": {},
     "autoload": {
-        "classmap": ["bazaar.php"]
+        "psr-0": {
+            "Bazaar\\": "./"
+        }
     }
 }
