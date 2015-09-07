@@ -26,7 +26,7 @@ class Bazaar
       return ucwords(self::get_item("superadj").'-'.self::get_item("superitems").'-'.rand(0-9999));
     }
     public static function get_item($filename) {
-      $words = file(__DIR__."../../words/$filename.txt"); 
+      $words = file(__DIR__."/../../words/$filename.txt"); 
       return $words[rand(0, count($words) - 1)];
     }
 }
