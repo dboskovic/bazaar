@@ -1,0 +1,13 @@
+{
+    "name": "dboskovic/bazaar-php",
+    "description": "Random item and Heroku-ish name generator package ported from raycchan/bazaar gem",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Boskovic",
+            "email": "me@david.gs"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
