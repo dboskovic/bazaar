@@ -20,14 +20,14 @@ use Bazaar\Bazaar;
 
 // create a log channel
 Bazaar::object();
-    // => "Dirty rubberband"
-    // => "Unusual pillow"
-    // => "Slippery toothpaste"
+    // => "dirty rubberband"
+    // => "unusual pillow"
+    // => "slippery toothpaste"
 
 Bazaar::super_object();
-    // => "Unwavering foliage"
-    // => "Tranquil snowflake"
-    // => "Exuberant drylands"
+    // => "unwavering foliage"
+    // => "tranquil snowflake"
+    // => "exuberant drylands"
 
 Bazaar::heroku();
     // => "inquisitive-cavern-6617"
@@ -35,13 +35,13 @@ Bazaar::heroku();
     // => "frightened-geyser-4542"
 
 Bazaar::adj();
-    // => "Colossal"
+    // => "colossal"
 Bazaar::item();
-    // => "Javelin"
+    // => "javelin"
 Bazaar::super_adj();
-    // => "Limitless"
+    // => "limitless"
 Bazaar::super_item();
-    // => "Lagoon"
+    // => "lagoon"
 ```
 
 
